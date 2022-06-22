@@ -1,9 +1,8 @@
+import {Header} from './static/Header'
 
 const App = () => {
   return (
-    <div className="App">
-      
-    </div>
+    <Header/>
   );
 }
 
