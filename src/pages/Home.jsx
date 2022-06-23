@@ -1,5 +1,6 @@
 import React from 'react'
 import Product from '../components/Product'
+import {Header} from '../components/Header'
 import image1 from '../images/image2.jpg'
 
 
@@ -26,8 +27,9 @@ export default function Home() {
 
 
   return (
-
+    
     <div className="container">
+    <Header/>
       <div className="row">
         {
           productCard.map(card => (
