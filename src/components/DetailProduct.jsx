@@ -5,3 +5,5 @@ export const DetailProduct = () => {
     <div>DetailProduct</div>
   )
 }
+
+

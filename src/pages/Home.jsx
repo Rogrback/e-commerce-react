@@ -1,8 +1,42 @@
 import React from 'react'
-import PropTypes from './Product';
+import Product from '../components/Product'
+import image1 from '../images/image2.jpg'
 
-export const Home = () => {
+
+export default function Home() {
+
+  const productCard = [
+    {
+      id: '1',
+      title: 'Cafe Colombiano',
+      image: image1
+    },
+    {
+      id: '2',
+      title: 'Cafe Peruano',
+      image: image1
+    },
+    {
+      id: '3',
+      title: 'Cafe Brasileño',
+      image: image1
+    }
+  ]
+  
+
+
   return (
-    <div>Home</div>
+
+    <div className="container">
+      <div className="row">
+        {
+          productCard.map(card => (
+            <div className="col-md-4" key={card.id}>
+              <Product title={card.title} image={card.image} id={card.id}/>
+           </div>
+          ))
+        }
+      </div>
+    </div>
   )
 }
