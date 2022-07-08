@@ -54,7 +54,7 @@ export const Pagination = (props) => {
             return (
                   
                   <div className="card-body border border-2 text-danger col-2 pt-2">
-                    <img src={products.image} width="300" height="300" alt="product" />
+                    <img src={products.image} width="300" height="300" alt="product" className='img-fluid' />
                     <h4 className="card-title">{products.product_name}</h4>
                     <h5 className="card-title">{products.price}</h5>
                     <p className="card-text text-secondary">{products.description}</p>
