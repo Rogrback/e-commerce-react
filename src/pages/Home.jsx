@@ -4,11 +4,9 @@ import { Header } from '../static/Header';
 
 export const Home = () => {
   return (
-    <div className="container">
+    <>
       <Header/>
-      <div className="row">
-        <HomeProduct/>
-      </div>
-    </div>
+      <HomeProduct/>
+    </>
   )
 }

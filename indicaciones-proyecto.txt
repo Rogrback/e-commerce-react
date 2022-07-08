@@ -1,0 +1,6 @@
+FASES DEL PROYECTO
+https://docs.google.com/document/d/1caPZ_mdP9Z8GrGXjRSWhqXwuw3t_85otdOFmXD-UlxA/edit#
+
+APIS
+https://ecomerce-master.herokuapp.com/docs
+https://documenter.getpostman.com/view/807695/Tzm6jvYY
