@@ -4,6 +4,7 @@ import {Header} from '../components/Header'
 import image1 from '../images/image2.jpg'
 
 
+
 export default function Home() {
 
   const productCard = [
@@ -29,7 +30,7 @@ export default function Home() {
   return (
     
     <div className="container">
-    <Header/>
+      <Header/>
       <div className="row">
         {
           productCard.map(card => (
